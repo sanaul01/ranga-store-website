@@ -19,9 +19,11 @@
 
 <body>
   <header>
-    <h2 class="heading">Public Shope</h2>
+    <!-- Heading  -->
+    <h2 class="heading">Public Shop</h2>
   </header>
   <main class="main">
+    <!-- Search field  -->
     <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" placeholder="Your Choice" />
@@ -31,12 +33,14 @@
         </button>
       </div>
     </div>
+    <!-- product field  -->
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
           
         </div>
       </div>
+      <!-- cart field  -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
@@ -51,30 +55,35 @@
             </thead>
             <tbody>
               <tr>
+                <!-- Added products  -->
                 <th>Total Added-Products:</th>
                 <td> <span id="total-Products">$ 0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
+                <!-- product price  -->
                 <th>Price:</th>
                 <td>$ <span id="price">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
+                <!-- delivery cost -->
                 <th>Delivery-Charge:</th>
                 <td>$ <span id="delivery-charge">20</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
+                <!-- total tax -->
                 <th>Total-Tax:</th>
                 <td>$ <span id="total-tax">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
+                <!-- total price -->
                 <th scope="row">Total</th>
                 <td colspan="2">$ <span id="total">0</span></td>
                 <td></td>
